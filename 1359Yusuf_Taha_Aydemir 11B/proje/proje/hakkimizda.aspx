@@ -23,19 +23,14 @@
 					</p>
 					<h3 class="text-center">Sıkça Sorulan Sorular (SSS)</h3>
 					<p class="text-justify">
-                        Güvenilir mi?
-                        
+						 Güvenilir mi?
 
-						
-							Sitemizde ilan veren kişiler,site içerisinde her an takip altındadır. Bir ilanı birden fazla kez yayınlarsa ya da bi ürünü iki kez satmaya çalışırsa siteden uzaklaştırılır.
-						
+						Sitemizde ilan veren kişiler,site içerisinde her an takip altındadır. Bir ilanı birden fazla kez yayınlarsa ya da bi ürünü iki kez satmaya çalışırsa siteden uzaklaştırılır.
 
 						Ürün arızalı çıkarsa ne yapmalıyım?
 
-                        
-                            Ürün arızalı çıkarsa ilk önceliğiniz satıcı ile görüşmenizdir.Eğer geri dönüş alamassanız bize <a href="iletisim.aspx">iletişim</a> bölümünden ulaşabilirsiniz.
-                        
-							
+						 Ürün arızalı çıkarsa ilk önceliğiniz satıcı ile görüşmenizdir.Eğer geri dönüş alamassanız bize <a href="iletisim.aspx">iletişim</a> bölümünden ulaşabilirsiniz.
+					
 						
 					</p>
 					<h3 class="text-center">Misyonumuz</h3>
