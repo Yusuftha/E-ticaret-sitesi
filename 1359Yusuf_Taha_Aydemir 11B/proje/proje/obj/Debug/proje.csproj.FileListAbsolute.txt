@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.dll
+C:\Users\User\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.pdb
+C:\Users\User\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.dll
+C:\Users\User\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.pdb
+C:\Users\Yusuf\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.dll
+C:\Users\Yusuf\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.pdb
+C:\Users\Yusuf\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.dll
+C:\Users\Yusuf\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.pdb
+C:\Users\Yusuf\Desktop\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.dll
+C:\Users\Yusuf\Desktop\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\bin\proje.pdb
+C:\Users\Yusuf\Desktop\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\Yusuf\Desktop\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.dll
+C:\Users\Yusuf\Desktop\Desktop\1359Yusuf_Taha_Aydemir 11B\proje\proje\obj\Debug\proje.pdb

@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{898C0F20-C564-4AE4-8BAC-16F08BEC2E7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>proje</RootNamespace>
+    <AssemblyName>proje</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="admingiris.aspx" />
+    <Content Include="arama.aspx" />
+    <Content Include="bilgisayar.aspx" />
+    <Content Include="cikis.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="default.aspx" />
+    <Content Include="dizustu.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="genelbakis.aspx" />
+    <Content Include="hakkimizda.aspx" />
+    <Content Include="iletisim.aspx" />
+    <Content Include="img\1.JPG" />
+    <Content Include="img\10.png" />
+    <Content Include="img\100.jpg" />
+    <Content Include="img\11.png" />
+    <Content Include="img\12.png" />
+    <Content Include="img\1246.jpg" />
+    <Content Include="img\132.JPG" />
+    <Content Include="img\133.JPG" />
+    <Content Include="img\134.JPG" />
+    <Content Include="img\135.JPG" />
+    <Content Include="img\136.png" />
+    <Content Include="img\137.jpg" />
+    <Content Include="img\138.jpg" />
+    <Content Include="img\14.jpg" />
+    <Content Include="img\15.jpg" />
+    <Content Include="img\17.jpg" />
+    <Content Include="img\18.jpg" />
+    <Content Include="img\1854.jpg" />
+    <Content Include="img\199.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\20.jpg" />
+    <Content Include="img\200.jpg" />
+    <Content Include="img\201.jpg" />
+    <Content Include="img\202.jpg" />
+    <Content Include="img\203.JPG" />
+    <Content Include="img\204.jpg" />
+    <Content Include="img\205.jpg" />
+    <Content Include="img\206.jpg" />
+    <Content Include="img\207.jpg" />
+    <Content Include="img\208.jpg" />
+    <Content Include="img\209.jpg" />
+    <Content Include="img\21.jpg" />
+    <Content Include="img\210.jpg" />
+    <Content Include="img\211.jpg" />
+    <Content Include="img\212.jpg" />
+    <Content Include="img\213.jpg" />
+    <Content Include="img\214.jpg" />
+    <Content Include="img\215.jpg" />
+    <Content Include="img\216.jpg" />
+    <Content Include="img\23.jpg" />
+    <Content Include="img\2367.jpg" />
+    <Content Include="img\24.jpg" />
+    <Content Include="img\25.jpg" />
+    <Content Include="img\2567.jpg" />
+    <Content Include="img\26.jpg" />
+    <Content Include="img\27.jpg" />
+    <Content Include="img\28.jpg" />
+    <Content Include="img\29.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\30.jpg" />
+    <Content Include="img\3456.jpg" />
+    <Content Include="img\3621.JPG" />
+    <Content Include="img\38.jpg" />
+    <Content Include="img\38.png" />
+    <Content Include="img\4326.jpg" />
+    <Content Include="img\4353.jpg" />
+    <Content Include="img\4363.jpg" />
+    <Content Include="img\4535345.jpg" />
+    <Content Include="img\456.jpg" />
+    <Content Include="img\4564.jpg" />
+    <Content Include="img\45672.jpg" />
+    <Content Include="img\457.jpg" />
+    <Content Include="img\46.jpg" />
+    <Content Include="img\463.JPG" />
+    <Content Include="img\48.jpg" />
+    <Content Include="img\49.JPG" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\50.jpg" />
+    <Content Include="img\51.jpg" />
+    <Content Include="img\52.jpg" />
+    <Content Include="img\53.jpg" />
+    <Content Include="img\532.jpg" />
+    <Content Include="img\5322.jpg" />
+    <Content Include="img\54.JPG" />
+    <Content Include="img\55.jpg" />
+    <Content Include="img\56.jpg" />
+    <Content Include="img\564.jpg" />
+    <Content Include="img\56465.jpg" />
+    <Content Include="img\56467.jpg" />
+    <Content Include="img\57.jpg" />
+    <Content Include="img\58.jpg" />
+    <Content Include="img\59.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\643.JPG" />
+    <Content Include="img\65.jpg" />
+    <Content Include="img\6543.jpg" />
+    <Content Include="img\65464.jpg" />
+    <Content Include="img\65723.jpg" />
+    <Content Include="img\6734.jpg" />
+    <Content Include="img\67453.jpg" />
+    <Content Include="img\70.jpg" />
+    <Content Include="img\742.JPG" />
+    <Content Include="img\7532.jpg" />
+    <Content Include="img\75543.jpg" />
+    <Content Include="img\7562.jpg" />
+    <Content Include="img\7657.jpg" />
+    <Content Include="img\7864.jpg" />
+    <Content Include="img\8.png" />
+    <Content Include="img\85.jpg" />
+    <Content Include="img\86.jpg" />
+    <Content Include="img\866.jpg" />
+    <Content Include="img\8755.jpg" />
+    <Content Include="img\87654.jpg" />
+    <Content Include="img\8974.jpg" />
+    <Content Include="img\8975.jpg" />
+    <Content Include="img\9.png" />
+    <Content Include="img\96.jpg" />
+    <Content Include="img\9745.jpg" />
+    <Content Include="img\genelfoto\43241.JPG" />
+    <Content Include="img\genelfoto\435345.JPG" />
+    <Content Include="img\genelfoto\43534567.JPG" />
+    <Content Include="img\genelfoto\54645.JPG" />
+    <Content Include="img\genelfoto\546456.JPG" />
+    <Content Include="img\genelfoto\56464.JPG" />
+    <Content Include="img\genelfoto\564645.JPG" />
+    <Content Include="img\genelfoto\6757567.JPG" />
+    <Content Include="img\genelfoto\9802304258098.jpg" />
+    <Content Include="img\alt.JPG" />
+    <Content Include="img\ara.png" />
+    <Content Include="img\carousel\huaweireklam.jpg" />
+    <Content Include="img\carousel\ipadreklam.png" />
+    <Content Include="img\carousel\reklam1.jpg" />
+    <Content Include="img\carousel\reklam2.jpg" />
+    <Content Include="img\carousel\reklam5.jpg" />
+    <Content Include="img\carousel\reklam6.jpg" />
+    <Content Include="img\carousel\reklam7.jpg" />
+    <Content Include="img\carousel\samsungreklam.jpg" />
+    <Content Include="img\genelfoto\6.JPG" />
+    <Content Include="img\genelfoto\i1.JPG" />
+    <Content Include="img\genelfoto\i2.JPG" />
+    <Content Include="img\genelfoto\i3.JPG" />
+    <Content Include="img\genelfoto\i4.JPG" />
+    <Content Include="img\genelfoto\i5.JPG" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\settings-481826_960_720.png" />
+    <Content Include="img\sikayetfoto\40a9c1903753425393e144039c3c1cf8.jpg" />
+    <Content Include="img\sikayetfoto\indir.jpg" />
+    <Content Include="img\sikayetfoto\x5_629853742z27.jpg" />
+    <Content Include="img\user.png" />
+    <Content Include="img\uyeolust.jpg" />
+    <Content Include="img\uyesol.JPG" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.3.1.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="masaustu.aspx" />
+    <Content Include="ozellik.aspx" />
+    <Content Include="secenek1.aspx" />
+    <Content Include="secenek2.aspx" />
+    <Content Include="secenek3.aspx" />
+    <Content Include="secenek4.aspx" />
+    <Content Include="secenek5.aspx" />
+    <Content Include="secenek6.aspx" />
+    <Content Include="secenek7.aspx" />
+    <Content Include="secenek8.aspx" />
+    <Content Include="sepet.aspx" />
+    <Content Include="sepeteekle.aspx" />
+    <Content Include="sikayetform.aspx" />
+    <Content Include="sikayetler.aspx" />
+    <Content Include="sikayettamamla.aspx" />
+    <Content Include="tablet.aspx" />
+    <Content Include="telefon.aspx" />
+    <Content Include="urun.accdb" />
+    <Content Include="urunekle.aspx" />
+    <Content Include="urunguncelle.aspx" />
+    <Content Include="urunozel.aspx" />
+    <Content Include="urunsil.aspx" />
+    <Content Include="uyegiris.aspx" />
+    <Content Include="uyeler.aspx" />
+    <Content Include="uyeol.aspx" />
+    <Content Include="uyesil.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="sepeturunsil.aspx" />
+    <Content Include="yorumekle.aspx" />
+    <Content Include="yorumlar.aspx" />
+    <Content Include="yorumsil.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admingiris.aspx.cs">
+      <DependentUpon>admingiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admingiris.aspx.designer.cs">
+      <DependentUpon>admingiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arama.aspx.cs">
+      <DependentUpon>arama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arama.aspx.designer.cs">
+      <DependentUpon>arama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bilgisayar.aspx.cs">
+      <DependentUpon>bilgisayar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bilgisayar.aspx.designer.cs">
+      <DependentUpon>bilgisayar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cikis.aspx.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cikis.aspx.designer.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dizustu.aspx.cs">
+      <DependentUpon>dizustu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dizustu.aspx.designer.cs">
+      <DependentUpon>dizustu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="genelbakis.aspx.cs">
+      <DependentUpon>genelbakis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="genelbakis.aspx.designer.cs">
+      <DependentUpon>genelbakis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masaustu.aspx.cs">
+      <DependentUpon>masaustu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masaustu.aspx.designer.cs">
+      <DependentUpon>masaustu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ozellik.aspx.cs">
+      <DependentUpon>ozellik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ozellik.aspx.designer.cs">
+      <DependentUpon>ozellik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sablon.Master.cs">
+      <DependentUpon>sablon.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sablon.Master.designer.cs">
+      <DependentUpon>sablon.Master</DependentUpon>
+    </Compile>
+    <Compile Include="secenek1.aspx.cs">
+      <DependentUpon>secenek1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek1.aspx.designer.cs">
+      <DependentUpon>secenek1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek2.aspx.cs">
+      <DependentUpon>secenek2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek2.aspx.designer.cs">
+      <DependentUpon>secenek2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek3.aspx.cs">
+      <DependentUpon>secenek3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek3.aspx.designer.cs">
+      <DependentUpon>secenek3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek4.aspx.cs">
+      <DependentUpon>secenek4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek4.aspx.designer.cs">
+      <DependentUpon>secenek4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek5.aspx.cs">
+      <DependentUpon>secenek5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek5.aspx.designer.cs">
+      <DependentUpon>secenek5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek6.aspx.cs">
+      <DependentUpon>secenek6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek6.aspx.designer.cs">
+      <DependentUpon>secenek6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek7.aspx.cs">
+      <DependentUpon>secenek7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek7.aspx.designer.cs">
+      <DependentUpon>secenek7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secenek8.aspx.cs">
+      <DependentUpon>secenek8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secenek8.aspx.designer.cs">
+      <DependentUpon>secenek8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepet.aspx.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepet.aspx.designer.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepeteekle.aspx.cs">
+      <DependentUpon>sepeteekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepeteekle.aspx.designer.cs">
+      <DependentUpon>sepeteekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sikayetform.aspx.cs">
+      <DependentUpon>sikayetform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sikayetform.aspx.designer.cs">
+      <DependentUpon>sikayetform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sikayetler.aspx.cs">
+      <DependentUpon>sikayetler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sikayetler.aspx.designer.cs">
+      <DependentUpon>sikayetler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sikayettamamla.aspx.cs">
+      <DependentUpon>sikayettamamla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sikayettamamla.aspx.designer.cs">
+      <DependentUpon>sikayettamamla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tablet.aspx.cs">
+      <DependentUpon>tablet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tablet.aspx.designer.cs">
+      <DependentUpon>tablet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="telefon.aspx.cs">
+      <DependentUpon>telefon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="telefon.aspx.designer.cs">
+      <DependentUpon>telefon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urunekle.aspx.cs">
+      <DependentUpon>urunekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urunekle.aspx.designer.cs">
+      <DependentUpon>urunekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urunguncelle.aspx.cs">
+      <DependentUpon>urunguncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urunguncelle.aspx.designer.cs">
+      <DependentUpon>urunguncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urunozel.aspx.cs">
+      <DependentUpon>urunozel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urunozel.aspx.designer.cs">
+      <DependentUpon>urunozel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urunsil.aspx.cs">
+      <DependentUpon>urunsil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urunsil.aspx.designer.cs">
+      <DependentUpon>urunsil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyegiris.aspx.cs">
+      <DependentUpon>uyegiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyegiris.aspx.designer.cs">
+      <DependentUpon>uyegiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyeler.aspx.cs">
+      <DependentUpon>uyeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyeler.aspx.designer.cs">
+      <DependentUpon>uyeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyeol.aspx.cs">
+      <DependentUpon>uyeol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyeol.aspx.designer.cs">
+      <DependentUpon>uyeol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepeturunsil.aspx.cs">
+      <DependentUpon>sepeturunsil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepeturunsil.aspx.designer.cs">
+      <DependentUpon>sepeturunsil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyesil.aspx.cs">
+      <DependentUpon>uyesil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyesil.aspx.designer.cs">
+      <DependentUpon>uyesil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yorumekle.aspx.cs">
+      <DependentUpon>yorumekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yorumekle.aspx.designer.cs">
+      <DependentUpon>yorumekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yorumlar.aspx.cs">
+      <DependentUpon>yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yorumlar.aspx.designer.cs">
+      <DependentUpon>yorumlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yorumsil.aspx.cs">
+      <DependentUpon>yorumsil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yorumsil.aspx.designer.cs">
+      <DependentUpon>yorumsil.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sablon.Master" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap-theme.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64543</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9063/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

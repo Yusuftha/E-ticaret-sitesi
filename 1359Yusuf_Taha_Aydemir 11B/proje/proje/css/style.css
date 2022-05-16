@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+}
+.iskelet {
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+.slide a {
+	color: #000;
+	font-size: 25px;
+}
+.nava .close {
+	position: absolute;
+	top: 8px;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 25px;
+	color: #ccc;
+}
+.nava {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #2f2f2f;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nava a.item {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #ccc;
+	background-color: #3d3d3d;
+	margin-bottom: 4px;
+}
+.nava .last {
+	
+}
+.nava a.item:hover {
+	color: black;
+	background-color: white;
+	transition: 0.4s;
+}
+.nava .icon {
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

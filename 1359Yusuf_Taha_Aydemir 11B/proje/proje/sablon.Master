@@ -1,0 +1,196 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sablon.master.cs" Inherits="proje.sablon" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity:"sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        $(document).ready(function () {
+
+            $("#urunlerid").click(function () {
+                $(".dropdown-menu").slideToggle();
+            });
+
+        })
+
+	</script> 
+    <style>
+        .ust {
+            width: 100%;
+            background-color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .arama {
+            width: 450px;
+            height: 35px;
+            padding-left: 15px;
+            border-radius: 3px;
+            border: 1px solid black;
+            margin: 0px auto;
+            
+            outline: none;
+        }
+
+        .aramabuton {
+            height: 35px;
+            border-radius: 3px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-left:0px;
+           
+        }
+       
+        .dropdown-menu{
+            background-color: white;
+            height: 104px;
+            margin-bottom: 2px;
+        }
+       .dropdown-menu a{
+            background-color: white;
+            margin-bottom: 2px;
+        }
+       .dropdown-menu a:hover{
+           background-color: red;
+           
+            margin-bottom: 2px;
+        }
+        #arabtn {
+            background-image:url(img/ara.png)
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" class="form-horizontal" runat="server">
+    <div class="container">
+        <div class="ust">
+            <div class="row">
+                <div class="col-md-4 text-center" id="link">
+                    <a href="default.aspx" style="color:black;text-decoration:none;padding-right:15px">Ana Sayfa</a>
+                    <a href="hakkimizda.aspx" style="color:black;text-decoration:none;line-height:150px;padding-right:15px">Hakkımızda</a>
+                    <a href="iletisim.aspx" style="color:black;text-decoration:none;padding-right:15px">İletisim</a>
+                </div>
+                 <div class="col-md-4 text-center">
+                     <a href="default.aspx"> <img src="img/logo.png" class="img-responsive" style="margin:0px auto;line-height:250px;"/></a>
+                </div>
+                 <div class="col-md-4 text-center">
+                     <div class="row">
+                         <div class="col-md-6">
+                             <h4 style="margin-top:25px;">Hesap</h4>
+                             <hr style="border-color:black;width:80px;margin-bottom:0px;margin-top:0px;" />
+                             
+                    
+                             <table style="margin:0px auto;margin-top:5px;" class="text-right">
+                                 <tr>
+
+                                     <td><a href="uyegiris.aspx" id="giris" runat="server" style="color:black;text-decoration:none;">Üye Girişi</a></td>
+                                      <td><a href="cikis.aspx" runat="server" id="cikis" style="color:black;text-decoration:none;">Çıkış</a></td>
+                                      <td rowspan="2"><i class="far fa-user" style="font-size:28px;padding-left:15px;"></i></td>
+                                                                  
+                                 </tr>
+                                <tr>
+                                    <td><a id="uyeol" href="uyeol.aspx" runat="server" style="color:black;text-decoration:none;">Üye Ol</a></td>
+                                </tr>
+                                              
+                            </table>
+                         </div>
+                         <div class="col-md-6" style="line-height:150px;">
+                              <table style="margin:0px auto">
+                         <tr>
+                             <td><a href="sepet.aspx" id="sepet" runat="server" style="color:black;text-decoration:none;">Sepet</a></td>
+                             <td><i class="fas fa-shopping-basket" style="font-size:28px;padding-left:8px;"></i></td>
+                         </tr>
+                     </table>
+                         </div>
+                     </div>
+                     
+                    <a href="#" id="kull" runat="server" style="color:#737373;text-decoration:none;font-size:18px;"></a>
+                    
+                </div>
+                 
+               
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="width:100%;text-align:center">
+                    <asp:TextBox ID="txtarama" placeholder="Ne Aramıştınız?" class="arama" runat="server"></asp:TextBox>
+                    <asp:Button ID="Button1" CssClass="aramabuton" runat="server" Text="Ara" OnClick="Button1_Click" />
+                    
+                </div>
+                
+            </div>
+        </div>
+        <nav class="navbar navbar-default" style="border:0px;">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              
+              <li class="dropdown">
+			        <a class="dropdown-toggle" id="urunlerid" data-toggle="dropdown" href="#" style="font-size: 18px;color: black;">
+			        <span class="glyphicon glyphicon-th-list"></span> Ürünler</a>
+			        <ul class="dropdown-menu">
+			          <li><a href="telefon.aspx" style="color:black;font-size: 17px;">Telefon</a></li>
+			          <li><a href="tablet.aspx" style="color:black;font-size: 17px;">Tablet</a></li>
+			          
+			          <li><a href="bilgisayar.aspx" style="color:black;font-size: 17px;">Bilgisayar</a></li>
+			          
+			        </ul>
+		     </li>
+                
+            </ul>
+
+          </div>
+            
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <hr  style="border-color:#808080"/>
+            <div class="row" style="margin-top:30px;">
+					<div class="col-md-3">
+						<img src="img/logo.png" class="img-responsive" style="margin:0px auto;" />
+                       
+					</div>
+					<div class="col-md-3">
+						<h3>Ürünler</h3>
+						<a href="telefon.aspx" style="color:black;">Telefon</a><br />
+				        <a href="tablet.aspx" style="color:black;">Tablet</a><br />
+				        <a href="bilgisayar.aspx" style="color:black;">Bilgisayar</a><br />
+				       
+				      
+					</div>
+					<div class="col-md-3" >
+						<h3>Kurumsal</h3>
+						<a href="hakkimizda.aspx" style="color:black;">Hakkımızda</a><br />
+						<a href="iletisim.aspx" style="color:black;">İletişim</a>
+					</div>
+					<div class="col-md-3">
+						<h3>Sosyal Medya</h3>
+						<i class="fab fa-twitter" style="font-size:18px;"></i> twitter/TechnoLife<br />
+						<i class="fab fa-facebook-square" style="font-size:18px;"></i> facebook/TechnoLige<br />
+						<i class="fab fa-instagram" style="font-size:18px;"></i> instagram/techno_life<br />
+						<i class="fab fa-google" style="font-size:18px;"></i> google/technolife@gmail.com<br />
+					</div>
+				</div>
+        <hr  style="border-color:#808080"/>
+			<img src="img/alt.jpg" class="img-responsive" style="width:100%;" />
+
+    </div>
+    </form>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
